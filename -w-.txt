@@ -1,0 +1,23 @@
+    Pelicula mispelis[1][2];
+    Pelicula pelis[2];
+    Pelicula p1("Bastardos sin gloria", 1, "accion", 120, 0, "Tarantino", "Hollywood films");
+    Pelicula p2;
+    mispelis[0][0] = pelis[2];
+    mispelis[0][0] = p1;
+    mispelis[0][0].imprimir();
+    /*
+    pelis[0] = p1;
+    pelis [1] = p2;
+    pelis[0].imprimir();
+    pelis[1].imprimir();
+    */
+    /*
+    p1.setCalificacion(5);
+    p1.imprimir();
+    cout << " " << endl;
+    p2.imprimir();
+    */
+
+
+
+g++ Video.cpp Pelicula.cpp Serie.cpp Capitulo.cpp main.cpp -o main
